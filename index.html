@@ -1,9 +1,24 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>JavaScript for Kids</title>
+    <script type="text/javascript" src="javascript/new_word-guess.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/word-guess.css" />
+    <style>
+      body{
+        background: url("guess.jpg") center no-repeat;
+        background-size: cover;
+      }
+    </style>
   </head>
   <body>
-    <script src="word-guess.js"></script>
+    <div>
+      <p id="ShowedText"></p>
+      <p id="wrongletters">Worng Letters: </p>
+      <input style="display:block;margin-left: 20px" type="text" id="TextBox"/>
+      <input type="button" id="SubmitButton" value="Submit"/>
+      <input type="button" value="Restart" onclick="location.reload()"/>
+    </div>
   </body>
 </html>

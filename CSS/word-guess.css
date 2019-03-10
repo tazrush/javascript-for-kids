@@ -1,0 +1,26 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden
+}
+div{
+    border: 5px double black;
+    border-radius: 10px;
+    padding: 10px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    text-align: center;
+    margin: auto;
+    position: 60px 50px
+}
+input[type=button]{
+    background-color: gray;
+    height: 23px;
+    width: 100px;
+    border: none;
+    float: auto;
+    margin: 5px 0px 0px 2px;
+}
+p#wrongletters{
+    font-size: 1em;
+}
